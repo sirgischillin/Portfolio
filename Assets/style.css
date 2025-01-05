@@ -1,3 +1,8 @@
+:root {
+    --border: darkblue;
+    --font: whitesmoke;
+}
+
 body {
     background-color:cadetblue;
     font-family: Garamond, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +23,7 @@ header {
 }
 
 nav {
-    color: darkblue;
+    color: var(--border);
 }
 
 .navflex {
@@ -36,34 +41,34 @@ nav {
 #img2 {
     width: 1000px;
     height: 400px;
-    border: 8px solid darkblue;
+    border: 8px solid var(--border);
     margin-bottom: 10px;
 }
 
 #img3 {
     width: 488px;
     height: 200px;
-    border: 8px solid darkblue;
+    border: 8px solid var(--border);
 }
 
 #img4 {
     width: 488px;
     height: 200px;
-    border: 8px solid darkblue;
+    border: 8px solid var(--border);
     margin-left: 9px;
 }
 
 #img5 {
     width: 488px;
     height: 200px;
-    border: 8px solid darkblue;
+    border: 8px solid var(--border);
     margin-top: 10px;
 }
 
 #img6 {
     width: 488px;
     height: 200px;
-    border: 8px solid darkblue;
+    border: 8px solid var(--border);
     margin-left: 9px;
     margin-top: 10px;
 }
@@ -105,7 +110,7 @@ a:hover {
 .imgtext {
     position: relative;
     text-align: center;
-    color: white;
+    color: var(--font);
     font-size: 500%;
 }
 
@@ -124,8 +129,8 @@ a:hover {
 .boxtext {
     position: absolute;
     bottom: 20px;
-    background-color: darkblue;
-    color: whitesmoke;
+    background-color: var(--border);
+    color: var(--font);
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom:30px;
@@ -134,8 +139,8 @@ a:hover {
 .boxtext2 {
     position: absolute;
     bottom: 20px;
-    background-color: darkblue;
-    color: whitesmoke;
+    background-color: var(--border);
+    color: var(--font);
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom:30px;
@@ -145,8 +150,8 @@ a:hover {
 .boxtext3 {
     position: relative;
     top: 20px;
-    background-color: darkblue;
-    color: whitesmoke;
+    background-color: var(--border);
+    color: var(--font);
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom:30px;
@@ -174,20 +179,20 @@ p {
 }
 
 #verticalline1 {
-    border-left: 5px solid darkblue;
+    border-left: 5px solid var(--border);
     height: 200px;
     padding-left: 20px;
 }
 
 #verticalline2 {
-    border-left: 5px solid darkblue;
+    border-left: 5px solid var(--border);
     height: 875px;
     padding-left: 25px;
     margin-left: 16px;
 }
 
 #verticalline3 {
-    border-left: 5px solid darkblue;
+    border-left: 5px solid var(--border);
     height: 200px;
     padding-left: 1px;
     margin-right: 172px;
